@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="hasjs">
   <head>
     <title>Sign Up!</title>
       <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
@@ -7,30 +7,34 @@
       <link rel="stylesheet" media="screen" href="css/normalize.css" />
       <link rel="stylesheet" media="screen" href="css/form.css" />
 	  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	  <script src="js/map.js" async></script>
   </head>
   <body>
     <h1>Sign up for our newsletter!</h1>
 	<p>Subscribe to receive exclusive gifts, news, updates, and upcoming events!</p>
 	<div id="form">
-      <form action="#null" method="post" autocomplete="on">
+      <form action="#null" method="post" onsubmit="click()" autocomplete="on">
 	    <fieldset>
 	      <div>
 		    <label for="firstName">First Name:</label>
 			<p></p>
 			<input type="text" name="firstName" id="firstName" placeholder="First Name" required>
 		  </div>
+		  <p></p>
 		  <div>
 		    <label for="lastName">Last Name:</label>
 			<p></p>
 			<input type="text" name="lastName" id="lastName" placeholder="Last Name" required>
 		  </div>
+		  <p></p>
 		  <div>
 		    <label for="email">E-mail:</label>
 			<p></p>
 			<input type="email" name="email" id="email" placeholder="E-mail" required>
 		  </div>
+		  <p></p>
 		  <div id="button">
-		    <input type="submit" value="Sign Me Up!">
+		    <input id="click" type="submit" value="Sign Me Up!">
 		  </div>
 	    </fieldset>
 	  </form>
