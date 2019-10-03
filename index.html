@@ -1,35 +1,36 @@
 <!DOCTYPE html>
-<html lang="en" class="nojs">
+<html lang="en">
   <head>
-    <title>Lab 2</title>
-      <meta charset="utf-8" />
+    <title>Sign Up!</title>
       <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+      <meta charset="utf-8" />
       <link rel="stylesheet" media="screen" href="css/normalize.css" />
       <link rel="stylesheet" media="screen" href="css/form.css" />
-	  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   </head>
   <body>
     <h1>Sign up for our newsletter!</h1>
+	<p>Subscribe to receive exclusive gifts, news, updates, and upcoming events!</p>
 	<div id="form">
-      <form action="#" method="post" autocomplete="on">
+      <form action="#null" method="post" autocomplete="on">
 	    <fieldset>
 	      <div>
-		    <label for="fullName">First and Last Name:</label>
-		    <p></p>
-		    <input type="text" name="fullName" placeholder="First and Last Name" id="fullName" required>
-		  </div>
-	      <div>
-	        <label for="email">E-mail Address:</label>
-		    <p></p>
-	        <input type="email" name="email" placeholder="Enter e-mail" id="email" required>
+		    <label for="firstName">First Name:</label>
+			<p></p>
+			<input type="text" name="firstName" id="firstName" placeholder="First Name" required>
 		  </div>
 		  <div>
-	        <label for="phoneNo">Phone Number:</label>
-		    <p></p>
-	        <input type="tel" name="phoneNo" placeholder="999-999-9999" id="phoneNo" required>
+		    <label for="lastName">Last Name:</label>
+			<p></p>
+			<input type="text" name="lastName" id="lastName" placeholder="Last Name" required>
 		  </div>
 		  <div>
-	        <button class="submit" type="button">Submit</button>
+		    <label for="email">E-mail:</label>
+			<p></p>
+			<input type="email" name="email" id="email" placeholder="E-mail" required>
+		  </div>
+		  <div id="button">
+		    <input type="submit" value="Sign Me Up!">
 		  </div>
 	    </fieldset>
 	  </form>
