@@ -1,60 +1,58 @@
-@media only screen and (min-width: 320px) { /*changed from 480px to accomadate for smaller screens */
-	html {
-		line-height: 1.2em;
-		font-family: 'Montserrat', Verdana, sans-serif;
-		font-size: 24px;
-		background-color: #94BFBE;
-		color: #61304B;
-		
-	}
-	
-	body {
-		text-align: center;
-	}
-
-	h1 {
-		font-size: 42px;
-		text-align: center;
-		margin: 10px;
-		padding: 5px;
-	}
-	
-	div {
-		margin: 5px 5px;
-		
-	}
-	
-	
-}
-@media only screen and (min-width: 768px) {
-	html {
-		line-height: 1.2em;
-		font-family: 'Montserrat', Verdana, sans-serif;
-		font-size: 24px;
-	}
-	
-}
 
 html {
-	line-height: 1.2em;
-	font-family: 'Montserrat', Verdana, sans-serif;
-	font-size: 16px;
-	background-color: #94BFBE;
-	color: #61304B;
+  line-height: 1.2em;
+  font-family: 'Montserrat', Verdana, sans-serif;
+  font-size: 16px;
+  background-color: #94BFBE;
+  color: #61304B;
 }
 
 h1 {
-	text-align: center;
-	font-size: 1.618em;
-	margin: 10px;
+  text-align: center;
+  font-size: 1.618em;
+  margin: 10px;
 }
 
 p {
-	margin: 5px;
+  margin: 5px;
 }
 
 #form {
-	border: solid;
-	width: 60%;
-	display: inline-block;
+  border: solid;
+  width: 60%;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 480px) { /*changed from 480px to accomadate for smaller screens */
+  html {
+    line-height: 1.2em;
+    font-family: 'Montserrat', Verdana, sans-serif;
+    font-size: 24px;
+    background-color: #94BFBE;
+    color: #61304B;	
+ }
+	
+  body {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 42px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+  }
+	
+  div {
+    margin: 5px 5px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    line-height: 1.2em;
+    font-family: 'Montserrat', Verdana, sans-serif;
+    font-size: 24px;
+  }
+	
 }
