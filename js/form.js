@@ -1,8 +1,10 @@
-function click() {
+function init() {
+    //add your javascrip between these two lines of code
+    var button = document.getElementById('button');
+    
 
-
-
-    alert("Thanks for signing up!");
-
+    button.addEventListener('click', function () {
+        alert("Thanks for signing up!");
+    });
 }
-window.addEventListener('load', click);
+window.addEventListener('load', init);
