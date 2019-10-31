@@ -13,7 +13,7 @@
     <h1>Sign up for our newsletter!</h1>
 	<p>Subscribe to receive exclusive new recipes, news, tips, and deals!</p>
 	<div id="form">
-      <form action="#null" method="post" autocomplete="on">
+      <form action="#null" method="post" autocomplete="on" onsubmit="init()">
 	    <fieldset>
 	      <div>
 		    <label for="firstName">First Name:</label>
@@ -28,7 +28,7 @@
 			<input type="email" name="email" id="email" placeholder="E-mail" required>
 		  </div>
 		  <div>
-		    <input id="button" type="submit" value="Sign Me Up!">
+		    <input id="button" type="submit" value="Sign Me Up!" >
 		  </div>
 	    </fieldset>
 	  </form>
